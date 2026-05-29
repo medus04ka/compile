@@ -1,26 +1,42 @@
-package org.example
-
 enum class TokenType {
-
-    //Basic
     NUMBER,
-    STRING,
     ID,
+    STRING,
 
     VAR,
     PRINT,
-    IF, ELSE,
+    IF,
+    ELSE,
     WHILE,
+    TRUE,
+    FALSE,
+    FUN,
+    RETURN,
 
+    PLUS,
+    MINUS,
+    STAR,
+    SLASH,
+    EQ,
+    EQEQ,
+    EXCL,
+    NEQ,
+    LT,
+    GT,
+    LTEQ,
+    GTEQ,
+    AND,
+    OR,
 
-    PLUS, MINUS, STAR, SLASH,
-    EQ, EQEQ, EXCL, NEQ,
-    LT, GT, LTEQ, GTEQ,
-    AND, OR,
-
-    lPAREN, RPAREN,
-    LBRACE, RBRACE,
+    LPAREN,
+    RPAREN,
+    LBRACE,
+    RBRACE,
+    LBRACKET,
+    RBRACKET,
     SEMICOLON,
+    COMMA,
+    COLON,
 
     EOF
 }
